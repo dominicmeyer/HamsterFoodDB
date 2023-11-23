@@ -33,7 +33,7 @@
     "@vue/eslint-config-typescript": "^12.0.0",
     "@vue/test-utils": "^2.4.1",
     "@vue/tsconfig": "^0.4.0",
-    "chromedriver": "^118.0.1",
+    "chromedriver": "^119.0.1",
     "eslint": "^8.49.0",
     "eslint-plugin-vue": "^9.17.0",
     "geckodriver": "^4.2.1",
