@@ -46,7 +46,7 @@ module.exports = {
   test_settings: {
     default: {
       disable_error_log: false,
-      launch_url: `http://localhost:${process.env.CI ? '4173' : '5173'}`,
+      launch_url: `http://localhost:${process.env.CI === null && process.env.CI ? '4173' : '5173'}`,
 
       screenshots: {
         enabled: false,
@@ -109,10 +109,10 @@ module.exports = {
           // w3c:false tells Chromedriver to run using the legacy JSONWire protocol (not required in Chrome 78)
           w3c: true,
           args: [
-            //'--no-sandbox',
-            //'--ignore-certificate-errors',
-            //'--allow-insecure-localhost',
-            //'--headless'
+            // '--no-sandbox',
+            // '--ignore-certificate-errors',
+            // '--allow-insecure-localhost',
+            // '--headless'
           ]
         }
       },
@@ -133,7 +133,7 @@ module.exports = {
           w3c: true,
           // More info on EdgeDriver: https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/capabilities-edge-options
           args: [
-            //'--headless'
+            // '--headless'
           ]
         }
       },

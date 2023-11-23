@@ -6,14 +6,14 @@ import nightwatchPlugin from 'vite-plugin-nightwatch'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-	base: "/HamsterFoodDB/",
-	plugins: [
-		vue(),
-		nightwatchPlugin(),
-	],
-	resolve: {
-		alias: {
-			'@': fileURLToPath(new URL('./src', import.meta.url))
-		}
-	}
+  base: '/HamsterFoodDB/',
+  plugins: [
+    vue(),
+    nightwatchPlugin()
+  ],
+  resolve: {
+    alias: {
+      '@': fileURLToPath(new URL('./src', import.meta.url))
+    }
+  }
 })

@@ -4,7 +4,7 @@ const { setup, teardown } = require('@nightwatch/vue')
 const serverPort = process.env.CI ? '4173' : '5173'
 
 module.exports = {
-  before(done) {
+  before (done) {
     setup()
     waitOn({
       resources: [`http-get://localhost:${serverPort}`],
@@ -17,7 +17,7 @@ module.exports = {
     })
   },
 
-  after() {
+  after () {
     teardown()
   }
 }

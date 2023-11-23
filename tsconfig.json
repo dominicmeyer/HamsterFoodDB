@@ -1,5 +1,8 @@
 {
 	"files": [],
+	"parserOptions": {
+		"project": {}
+	},
 	"references": [
 		{
 			"path": "./tsconfig.node.json"

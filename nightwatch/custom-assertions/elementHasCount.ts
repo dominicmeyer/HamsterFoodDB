@@ -9,7 +9,7 @@
  *
  */
 
-exports.assertion = function elementHasCount(selector: string, count: number) {
+exports.assertion = function elementHasCount (selector: string, count: number) {
   // Message to be displayed on the console while running this assertion.
   this.message = `Testing if element <${selector}> has count: ${count}`
 
@@ -30,9 +30,9 @@ exports.assertion = function elementHasCount(selector: string, count: number) {
   }
 
   // Script to be executed in the browser to find the actual element count.
-  function elementCountScript(_selector: string) {
+  function elementCountScript (_selector: string): number {
     // eslint-disable-next-line
-    return document.querySelectorAll(_selector).length
+		return document.querySelectorAll(_selector).length
   }
 
   // The command to be executed by the assertion runner, to find the actual
