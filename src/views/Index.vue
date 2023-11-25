@@ -43,8 +43,9 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import { useDisplay } from 'vuetify/lib/framework.mjs';
-import data from '@/data.json'
+import { useFoodStore } from '@/stores/foodStore';
 
+const data = useFoodStore().foods
 const { mdAndUp } = useDisplay()
 let search = ref("")
 let itemsPerPage = ref(mdAndUp.value ? 9 : 6)
