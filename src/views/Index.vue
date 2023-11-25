@@ -21,17 +21,8 @@
 				</template>
 
 				<template v-slot:footer="{ page, pageCount, prevPage, nextPage }">
-					<div class="d-flex align-center justify-center pa-4">
-						<v-btn :disabled="page === 1" icon="mdi-arrow-left" density="comfortable"
-							variant="tonal" rounded @click="prevPage"></v-btn>
-
-						<div class="mx-2 text-caption">
-							Page {{ page }} of {{ pageCount }}
-						</div>
-
-						<v-btn :disabled="page >= pageCount" icon="mdi-arrow-right"
-							density="comfortable" variant="tonal" rounded @click="nextPage"></v-btn>
-					</div>
+					<BottomPaginationBar :page="page" :page-count="pageCount" :prev-page="prevPage"
+						:next-page="nextPage" />
 				</template>
 			</v-data-iterator>
 		</v-row>
@@ -43,6 +34,7 @@ import { ref } from 'vue';
 import { useDisplay } from 'vuetify/lib/framework.mjs';
 import { useFoodStore } from '@/stores/foodStore';
 import TopBar from '@/components/bars/TopBar.vue'
+import BottomPaginationBar from '@/components/bars/BottomPaginationBar.vue'
 
 const data = useFoodStore().foods
 const { mdAndUp } = useDisplay()
