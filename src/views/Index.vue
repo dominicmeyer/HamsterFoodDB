@@ -1,8 +1,6 @@
 <template>
 	<v-container class="w-full h-full">
-		<v-row align="center" justify="center">
-			<img src="/HamsterFoodDB_cartoon-removebg.png" class="max-h-52">
-		</v-row>
+		<TopBar />
 
 		<v-row>
 			<v-data-iterator class="w-full" :items="data" :items-per-page="itemsPerPage" :search="search">
@@ -44,6 +42,7 @@
 import { ref } from 'vue';
 import { useDisplay } from 'vuetify/lib/framework.mjs';
 import { useFoodStore } from '@/stores/foodStore';
+import TopBar from '@/components/bars/TopBar.vue'
 
 const data = useFoodStore().foods
 const { mdAndUp } = useDisplay()
