@@ -1,46 +1,57 @@
 <template>
-	<v-container>
-		<v-row>
-			<div>
-				<img src="/HamsterFoodDB_cartoon-removebg.png">
-			</div>
+	<v-container class="w-full h-full">
+		<v-row align="center" justify="center">
+			<img src="/HamsterFoodDB_cartoon-removebg.png" class="max-h-52">
 		</v-row>
 
 		<v-row>
-			<v-text-field clearable label="Food" variant="outlined" @input="search"
-				v-model="searchTerm"></v-text-field>
-		</v-row>
+			<v-data-iterator class="w-full" :items="data" :items-per-page="itemsPerPage" :search="search">
+				<template v-slot:header>
+					<v-text-field v-model="search" clearable placeholder="Food"
+						variant="solo"></v-text-field>
+				</template>
 
-		<v-row>
-			<v-card v-for="item in result" :key="item.name" :title="item.name"
-				:subtitle="'Kategorie: ' + item.category"></v-card>
+				<template v-slot:default="{ items }">
+					<div class="grid grid-cols-2 md:grid-cols-3 w-full">
+						<v-card v-for="item in items" :key="item.raw.name" class="pb-3" border flat
+							:subtitle="item.raw.category" :title="item.raw.name">
+							<v-card-text v-if="item.raw.comment">
+								Kommentar: {{ item.raw.comment }}
+							</v-card-text>
+						</v-card>
+					</div>
+				</template>
+
+				<template v-slot:footer="{ page, pageCount, prevPage, nextPage }">
+					<div class="d-flex align-center justify-center pa-4">
+						<v-btn :disabled="page === 1" icon="mdi-arrow-left" density="comfortable"
+							variant="tonal" rounded @click="prevPage"></v-btn>
+
+						<div class="mx-2 text-caption">
+							Page {{ page }} of {{ pageCount }}
+						</div>
+
+						<v-btn :disabled="page >= pageCount" icon="mdi-arrow-right"
+							density="comfortable" variant="tonal" rounded @click="nextPage"></v-btn>
+					</div>
+				</template>
+			</v-data-iterator>
 		</v-row>
 	</v-container>
 </template>
 
 <script setup lang="ts">
 import { ref } from 'vue';
-import type { Ref } from 'vue';
-import MiniSearch from 'minisearch'
+import { useDisplay } from 'vuetify/lib/framework.mjs';
 import data from '@/data.json'
 
-let searchTerm = ""
-let result: Ref<{ name: string, category: string }[]> = ref([{ "name": "test", "category": "test" }])
-const miniSearch = new MiniSearch({
-	fields: ['name'],
-	storeFields: ["category", "comment", "name"],
-})
-miniSearch.addAll(data)
+const { mdAndUp } = useDisplay()
+let search = ref("")
+let itemsPerPage = ref(mdAndUp.value ? 9 : 6)
 
-const search = () => {
-	result.value = miniSearch.search(searchTerm).map((item) => {
-		const name = item.name
-		const category = item.category
 
-		return {
-			name,
-			category
-		}
-	})
+const calcItemsPerPage = () => {
+	itemsPerPage.value = mdAndUp.value ? 9 : 6
 }
+window.addEventListener("resize", calcItemsPerPage);
 </script>

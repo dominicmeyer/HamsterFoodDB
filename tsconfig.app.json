@@ -5,7 +5,8 @@
 		"src/**/*",
 		"src/**/*.vue",
 		"src/**/*.ts",
-		"src/**/*.json"
+		"src/**/*.json",
+		"tailwind.config.*"
 	],
 	"exclude": [
 		"src/**/__tests__/*"
@@ -15,6 +16,7 @@
 		"moduleResolution": "node",
 		"esModuleInterop": true,
 		"composite": true,
+		"allowImportingTsExtensions": true,
 		"baseUrl": ".",
 		"paths": {
 			"@/*": [
