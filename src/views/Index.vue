@@ -20,9 +20,9 @@
 					</div>
 				</template>
 
-				<template v-slot:footer="{ page, pageCount, prevPage, nextPage }">
-					<BottomPaginationBar :page="page" :page-count="pageCount" :prev-page="prevPage"
-						:next-page="nextPage" />
+				<template v-slot:footer="{ page, pageCount, prevPage, nextPage, setPage }">
+					<v-pagination :length="pageCount" :model-value="page" @next="nextPage" @prev="prevPage"
+						@update:model-value="setPage" />
 				</template>
 			</v-data-iterator>
 		</v-row>
@@ -34,7 +34,6 @@ import { ref } from 'vue';
 import { useDisplay } from 'vuetify/lib/framework.mjs';
 import { useFoodStore } from '@/stores/foodStore';
 import TopBar from '@/components/bars/TopBar.vue'
-import BottomPaginationBar from '@/components/bars/BottomPaginationBar.vue'
 
 const data = useFoodStore().foods
 const { mdAndUp } = useDisplay()
