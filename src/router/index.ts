@@ -17,11 +17,14 @@ const router = createRouter({
 			beforeEnter: (to, _from) => {
 				const foodStore = useFoodStore()
 				const foodId: number = parseInt(to.params.id.toString())
-				return foodStore.foodById(foodId) !== undefined
+				if (foodId === null || foodStore.foodById(foodId) === undefined) {
+					router.push({ name: "not-found" })
+				}
 			}
 		},
 		{
 			path: '/:pathMatch(.*)*',
+			name: 'not-found',
 			component: Error404View
 		}
 	]
