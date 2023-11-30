@@ -1,5 +1,9 @@
 <template>
-	{{ food.name }}
+	<div class="h-full w-full grid justify-items-center items-center">
+		<v-sheet>
+			{{ food.name }}
+		</v-sheet>
+	</div>
 </template>
 
 <script setup lang="ts">
