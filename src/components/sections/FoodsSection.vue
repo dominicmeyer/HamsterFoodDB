@@ -15,9 +15,8 @@
 				</div>
 			</template>
 
-			<template v-slot:footer="{ page, pageCount, prevPage, nextPage, setPage }">
-				<v-pagination :length="pageCount" :model-value="page" @next="nextPage" @prev="prevPage"
-					@update:model-value="setPage" />
+			<template v-slot:footer="{ page, pageCount, setPage }">
+				<v-pagination :length="pageCount" :model-value="page" @update:model-value="setPage" />
 			</template>
 		</v-data-iterator>
 </template>
