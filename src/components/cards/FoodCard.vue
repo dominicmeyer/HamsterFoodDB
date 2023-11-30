@@ -1,5 +1,5 @@
 <template>
-	<v-card :key="item.id" class="pb-3" border flat :subtitle="item.category" :title="item.name">
+	<v-card :key="item.id" class="pb-3" border flat :title="item.name" :color="item.digestible ? 'white' : 'red'">
 		<v-card-text v-if="item.comment">
 			Kommentar: {{ item.comment }}
 		</v-card-text>
@@ -7,10 +7,10 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps } from 'vue';
+import { ref } from "vue"
 import { FoodEntry } from '@/types/foodEntry.ts'
 
-defineProps({
+const props = defineProps({
 	item: {
 		type: FoodEntry,
 		required: true
