@@ -1,0 +1,1262 @@
+[
+    {
+        "comment": "",
+        "name": "Nachtkerzensamen",
+        "id": 0,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Mungbohnen",
+        "id": 1,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Marokkohirse",
+        "id": 2,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Mannahirse",
+        "id": 3,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Japanhirse",
+        "id": 4,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Gr\u00fcne Hirse",
+        "id": 5,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Heublumenbl\u00fcten",
+        "id": 6,
+        "digestible": true
+    },
+    {
+        "comment": "Fettreich",
+        "name": "Soldatenfliegenlarven",
+        "id": 7,
+        "digestible": true
+    },
+    {
+        "comment": "Einzeln F\u00fctterbar",
+        "name": "Haseln\u00fcsse",
+        "id": 8,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Gr\u00fcner Dinkel",
+        "id": 9,
+        "digestible": true
+    },
+    {
+        "comment": "Fettreich",
+        "name": "Grash\u00fcpfer",
+        "id": 10,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Gammarus",
+        "id": 11,
+        "digestible": true
+    },
+    {
+        "comment": "Wahrscheinlich relativ viel fett",
+        "name": "Fliegenlarven",
+        "id": 12,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Basilikumsamen",
+        "id": 13,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Anissamen",
+        "id": 14,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Ackerbohnen",
+        "id": 15,
+        "digestible": true
+    },
+    {
+        "comment": "Nur sehr wenig, auf S\u00e4ure achten",
+        "name": "Blaubeeren",
+        "id": 16,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Goldhirse",
+        "id": 17,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Braunhirse",
+        "id": 18,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Mandel",
+        "id": 19,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Hopfenbl\u00fcten",
+        "id": 20,
+        "digestible": true
+    },
+    {
+        "comment": "Sehr gerne genommen",
+        "name": "Breitwegerich",
+        "id": 21,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Gr\u00fcnkern",
+        "id": 22,
+        "digestible": true
+    },
+    {
+        "comment": "Proteinreich",
+        "name": "Einkorn",
+        "id": 23,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Dinkel",
+        "id": 24,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Quinoa",
+        "id": 25,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Mungobohnensprosse",
+        "id": 26,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Adzukibohnen",
+        "id": 27,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Kichererbsen",
+        "id": 28,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Linsen",
+        "id": 29,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Mariendistelsaat",
+        "id": 30,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Melonenkerne",
+        "id": 31,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Perilla",
+        "id": 32,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "R\u00fcbsen",
+        "id": 33,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Blumenkohl",
+        "id": 34,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Giersch",
+        "id": 35,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Gojibeeren",
+        "id": 36,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Kornblume",
+        "id": 37,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Malve",
+        "id": 38,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Pastinaken",
+        "id": 39,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Ringelblumen",
+        "id": 40,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Spitzwegerich",
+        "id": 41,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Tomate",
+        "id": 42,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Topinambur",
+        "id": 43,
+        "digestible": true
+    },
+    {
+        "comment": "Sehr hohe medizinische Wirkung, daher selten f\u00fcttern",
+        "name": "Weidenzweige",
+        "id": 44,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Blaumohn",
+        "id": 45,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Esparsette",
+        "id": 46,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Erbsen",
+        "id": 47,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Weidelgras",
+        "id": 48,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Rapsamen",
+        "id": 49,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Rote Hirse",
+        "id": 50,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Silberhirse",
+        "id": 51,
+        "digestible": true
+    },
+    {
+        "comment": "M\u00f6gen manche Hamster nicht, ausprobieren",
+        "name": "Kanariensaat",
+        "id": 52,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Platahirse",
+        "id": 53,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Kresse",
+        "id": 54,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Schnittlauch",
+        "id": 55,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Feigen",
+        "id": 56,
+        "digestible": true
+    },
+    {
+        "comment": "\u00c4u\u00dfere Bl\u00e4tter entfernen",
+        "name": "Chicoree",
+        "id": 57,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Nektarine",
+        "id": 58,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Pflaume",
+        "id": 59,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Aprikosen",
+        "id": 60,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Pfirsich",
+        "id": 61,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Kirsche",
+        "id": 62,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Apfelsinen",
+        "id": 63,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Ananas",
+        "id": 64,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Bananen",
+        "id": 65,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Spinat",
+        "id": 66,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Champignons",
+        "id": 67,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Johannisbeerholz",
+        "id": 68,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Birkenholz",
+        "id": 69,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Lindenholz",
+        "id": 70,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Heidelbeerholz",
+        "id": 71,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Thujaholz",
+        "id": 72,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Eibenholz",
+        "id": 73,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Robinienholz",
+        "id": 74,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Holunderholz",
+        "id": 75,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Eichenholz",
+        "id": 76,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Rosskastanienholz",
+        "id": 77,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Nadelholz",
+        "id": 78,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Ahornholz",
+        "id": 79,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Buchenholz",
+        "id": 80,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Pappelholz",
+        "id": 81,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Apfelholz",
+        "id": 82,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Birnenholz",
+        "id": 83,
+        "digestible": true
+    },
+    {
+        "comment": "Auf S\u00e4ure achten",
+        "name": "Himbeeren",
+        "id": 84,
+        "digestible": true
+    },
+    {
+        "comment": "Einzeln F\u00fctterbar",
+        "name": "Waln\u00fcsse",
+        "id": 85,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Rosinen",
+        "id": 86,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Heu",
+        "id": 87,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Erdbeeren",
+        "id": 88,
+        "digestible": true
+    },
+    {
+        "comment": "Kerngeh\u00e4use entfernen",
+        "name": "Birnen",
+        "id": 89,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Melone",
+        "id": 90,
+        "digestible": true
+    },
+    {
+        "comment": "Auf S\u00e4ure achten",
+        "name": "Kiwi",
+        "id": 91,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Weintrauben",
+        "id": 92,
+        "digestible": true
+    },
+    {
+        "comment": "Auf S\u00e4ure achten",
+        "name": "\u00c4pfel",
+        "id": 93,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Kopfsalat",
+        "id": 94,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Eisbergsalat",
+        "id": 95,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Feldsalat",
+        "id": 96,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "K\u00fcrbis",
+        "id": 97,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Zucchini",
+        "id": 98,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Brokkoli",
+        "id": 99,
+        "digestible": true
+    },
+    {
+        "comment": "Inneres entfernen",
+        "name": "Gurken",
+        "id": 100,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Fenchel",
+        "id": 101,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Maisbl\u00e4tter",
+        "id": 102,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Mais",
+        "id": 103,
+        "digestible": true
+    },
+    {
+        "comment": "Ohne Strunk",
+        "name": "Paprika",
+        "id": 104,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Trollkirsche",
+        "id": 105,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Stechapfel",
+        "id": 106,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Sommerflieder",
+        "id": 107,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Schneegl\u00f6ckchen",
+        "id": 108,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Schierling",
+        "id": 109,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Sauerklee",
+        "id": 110,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Primel",
+        "id": 111,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Osterglocke",
+        "id": 112,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Narzisse",
+        "id": 113,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Mistel",
+        "id": 114,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Maigl\u00f6ckchen",
+        "id": 115,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Lilien",
+        "id": 116,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Lebensbaum",
+        "id": 117,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Kirschlorbeer",
+        "id": 118,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Kartoffelkraut",
+        "id": 119,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Kalla",
+        "id": 120,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Hyazinthe",
+        "id": 121,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Holunder",
+        "id": 122,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Heckenkirsche",
+        "id": 123,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Hahnenfu\u00df",
+        "id": 124,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Ginster",
+        "id": 125,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Geranien",
+        "id": 126,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Fingerhut",
+        "id": 127,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Farne",
+        "id": 128,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Essigbaum",
+        "id": 129,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Eisenhut",
+        "id": 130,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Eibengew\u00e4chse",
+        "id": 131,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Efeu",
+        "id": 132,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Christrose",
+        "id": 133,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Buchsbaum",
+        "id": 134,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Bilsenkraut",
+        "id": 135,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "B\u00e4rlauch",
+        "id": 136,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "B\u00e4renklau",
+        "id": 137,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Aronstab",
+        "id": 138,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Aloe Vera",
+        "id": 139,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Agaven",
+        "id": 140,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Radieschen",
+        "id": 141,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Papaya",
+        "id": 142,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Zwiebeln",
+        "id": 143,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Knoblauch",
+        "id": 144,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Porree",
+        "id": 145,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Avocados",
+        "id": 146,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Auberginen",
+        "id": 147,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Rosenkohl",
+        "id": 148,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Rotkohl",
+        "id": 149,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Wei\u00dfkohl",
+        "id": 150,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Klee",
+        "id": 151,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "Kartoffeln",
+        "id": 152,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "H\u00fclsenfr\u00fcchte",
+        "id": 153,
+        "digestible": false
+    },
+    {
+        "comment": "",
+        "name": "K\u00f6hlrabibl\u00e4tter",
+        "id": 154,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Fenchelgr\u00fcn",
+        "id": 155,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "M\u00f6hrenkraut",
+        "id": 156,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "G\u00e4nsebl\u00fcmchen",
+        "id": 157,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Sonnenblumen",
+        "id": 158,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Dill",
+        "id": 159,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Kohldistel",
+        "id": 160,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "L\u00f6wenzahn",
+        "id": 161,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Bachflohkrebse",
+        "id": 162,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Heimchen",
+        "id": 163,
+        "digestible": true
+    },
+    {
+        "comment": "Einzeln F\u00fctterbar",
+        "name": "Macadamia",
+        "id": 164,
+        "digestible": true
+    },
+    {
+        "comment": "Einzeln F\u00fctterbar",
+        "name": "Pinienkerne",
+        "id": 165,
+        "digestible": true
+    },
+    {
+        "comment": "Einzeln F\u00fctterbar",
+        "name": "Erdn\u00fcsse",
+        "id": 166,
+        "digestible": true
+    },
+    {
+        "comment": "Einzeln F\u00fctterbar",
+        "name": "Sonnenblumenkerne",
+        "id": 167,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Pfefferminze",
+        "id": 168,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Hirtent\u00e4schelkraut",
+        "id": 169,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Vogelmiere",
+        "id": 170,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Schafgarbe",
+        "id": 171,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Petersilie",
+        "id": 172,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Melisse",
+        "id": 173,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Kamille",
+        "id": 174,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Gr\u00fcner Hafer",
+        "id": 175,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Brennnesselkraut",
+        "id": 176,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Hagebutten",
+        "id": 177,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Kohlrabi",
+        "id": 178,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "M\u00f6hren",
+        "id": 179,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Sellerie",
+        "id": 180,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Rote Beete",
+        "id": 181,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Grassamen",
+        "id": 182,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "G\u00e4nsebl\u00fcmchensamen",
+        "id": 183,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Luzerne",
+        "id": 184,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Petersiliensamen",
+        "id": 185,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Dillsamen",
+        "id": 186,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Leindottersamen",
+        "id": 187,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Sesam",
+        "id": 188,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Mohn",
+        "id": 189,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Hanfsamen",
+        "id": 190,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Chia",
+        "id": 191,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Negersaat",
+        "id": 192,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Leinsamen",
+        "id": 193,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Kardi",
+        "id": 194,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Amaranth",
+        "id": 195,
+        "digestible": true
+    },
+    {
+        "comment": "Proteinreich",
+        "name": "Buchweizen",
+        "id": 196,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Kolbenhirse",
+        "id": 197,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Emmerweizen",
+        "id": 198,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Kamut",
+        "id": 199,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Roggen",
+        "id": 200,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Gerste",
+        "id": 201,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Hirse",
+        "id": 202,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Weizenflocken",
+        "id": 203,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Weizenk\u00f6rner",
+        "id": 204,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Haferk\u00f6rner",
+        "id": 205,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Haferflocken",
+        "id": 206,
+        "digestible": true
+    },
+    {
+        "comment": "Einzeln F\u00fctterbar",
+        "name": "K\u00fcrbiskerne",
+        "id": 207,
+        "digestible": true
+    },
+    {
+        "comment": "",
+        "name": "Grillen",
+        "id": 208,
+        "digestible": true
+    },
+    {
+        "comment": "Relativ fetthaltig, daher nicht alleinige Quelle",
+        "name": "Mehlw\u00fcrmer",
+        "id": 209,
+        "digestible": true
+    }
+]

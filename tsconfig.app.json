@@ -5,7 +5,16 @@
 		"src/**/*",
 		"src/**/*.vue",
 		"src/**/*.ts",
-		"src/**/*.json"
+		"src/**/*.json",
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+		"tailwind.config.*"
+=======
+		"./**/*.ts"
+>>>>>>> Stashed changes
+=======
+		"./**/*.ts"
+>>>>>>> Stashed changes
 	],
 	"exclude": [
 		"src/**/__tests__/*"
@@ -15,6 +24,7 @@
 		"moduleResolution": "node",
 		"esModuleInterop": true,
 		"composite": true,
+		"allowImportingTsExtensions": true,
 		"baseUrl": ".",
 		"paths": {
 			"@/*": [
