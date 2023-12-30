@@ -6,7 +6,11 @@
 		"src/**/*.vue",
 		"src/**/*.ts",
 		"src/**/*.json",
+<<<<<<< Updated upstream
 		"tailwind.config.*"
+=======
+		"./**/*.ts"
+>>>>>>> Stashed changes
 	],
 	"exclude": [
 		"src/**/__tests__/*"
